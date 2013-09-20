@@ -52,6 +52,12 @@ sub load_people {
 
 	return @people;
 }
+
+sub link_children {
+	my ($class, @people) = @_;
+
+
+}
 		
 
 1;
