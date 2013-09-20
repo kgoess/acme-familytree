@@ -37,6 +37,8 @@ sub load_people {
 
 	while (<$fh>){
 
+		chomp;
+
 		s/#.+//;  
 
 		/\S/ || next; 
